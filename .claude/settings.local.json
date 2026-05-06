@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(python -m venv \"C:\\\\Users\\\\clkan\\\\OneDrive\\\\Desktop\\\\isba-4715-sql\\\\weather-api-pipeline\\\\.venv\")",
+      "PowerShell(& \"C:\\\\Users\\\\clkan\\\\OneDrive\\\\Desktop\\\\isba-4715-sql\\\\weather-api-pipeline\\\\.venv\\\\Scripts\\\\pip.exe\" install requests pandas)",
+      "PowerShell(& \"C:\\\\Users\\\\clkan\\\\OneDrive\\\\Desktop\\\\isba-4715-sql\\\\weather-api-pipeline\\\\.venv\\\\Scripts\\\\python.exe\" -c \"import requests, pandas; print\\('requests:', requests.__version__\\); print\\('pandas:', pandas.__version__\\)\")"
+    ]
+  }
+}
